@@ -1,25 +1,6 @@
-
-.phone{
-    margin-top: 20px;
-    margin-bottom: -60px;
+.header {
+  background-color: #84d4f8;  
 }
-.test {
-  font-size: 24px;
-  background: linear-gradient(to top, silver,white); 
-  line-height: 1.2;
-  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 22.1px;
-}
-.template {
-  font-size: 14px;
-  background: linear-gradient(to top, silver,white);  
-  line-height: 1.2;
-  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
-  position: absolute; 
-  top: 47.82px;
-}
-
 .li{
   box-sizing: content-box;
   -ms-flex: 0 1 auto;
@@ -44,11 +25,12 @@
   padding:10% 0%;
   color: #fff;
 }
-
+.about{
+  background-color: #c4c4c4;
+}
 .zag{
   padding:5% 0;
-  color:#444343;
-  font-weight: lighter;
+  color:#585050;
   text-align: center;
 }
 .headings{
@@ -65,14 +47,19 @@
 .btn{
   padding: .375rem 3.00rem;
   border-radius:0px;
-  background-color: #73abda;
-  border-color: #73abda;
+    margin-top: 45px;
+    margin-left: 40px;
+    background: #3674ba; 
+    color: #FFFFFF; 
+    font-size: 14px; 
+    width: auto; 
+    padding: 7px 35px;
+    text-decoration: none; 
 }
 .btn-primary{
   padding: .375rem 3.00rem;
   border-radius:0px;
   background-color: #3674ba;
-  border-color: #3674ba;
 }
 .bt{
   position: relative;
@@ -80,33 +67,37 @@
   border-radius: 0;
   background-color: #3674ba;
   border-color: #3674ba;
+  -webkit-text-fill-color: white; 
   width:20%;
   padding: .375rem .75rem;
   top:-48px;
   border:0px;
 }
-.map{
-  position: absolute;
-  width: 80%;
-  bottom: 10px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  color: #000;
-  text-align: center;
-  line-height: 1.8;
-  font-size: 2px;
-  background: #fff;
+.phone{
+    margin-top: 20px;
+    margin-bottom: -60px;
+}
+.phone2{
+    margin-top:53px;
+    margin-bottom: -60px;
+}
+.wind{
+    height:400px;
+    margin-top:58px;
+    margin-bottom: -60px;
+}
+.maps{
+    height:200px;
+    width: 600px;
 }
 hr{
- font-weight: bold;
-  color: black;
   position: relative;
-  top: 13px;
+  top: 12px;
   left: 0px;
 }
 h1{
+  margin-left: 20px;
+    margin-top: 20px;
   font-size: 48px;
   color: rgb(255, 255, 255);
   line-height: 1.2;
@@ -114,23 +105,29 @@ h1{
   font-size: 48px;
 }
 h1+p{
-  font-weight: lighter;
   font-size: 18px;
-  color: rgb(51, 85, 101);
+  margin-left: 20px;
+  color: #434040;
 }
 h2{
   font-size: 48px;
- margin-top: 10px; 
-    color: #59616c;
-    margin-bottom: 10px;
   text-transform:uppercase;
 }
-
+h4{
+  font-size: 36px;
+  color: #7c7c7c;
+  text-transform:uppercase;
+}
 h5{
+  color: #3674ba;;
   text-transform:uppercase;
   font-size: 22px;
-  color: rgb(54, 116, 186);
-  margin-top: 15px;
+}
+h6{
+  font-size: 14px;
+}
+i{
+  font-size:100px;
 }
 input{
   width:100%;
