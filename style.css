@@ -22,7 +22,7 @@
 }
 .carousel-cap {
   z-index: 10;
-  padding:10% 0%;
+  padding:4% 0%;
   color: #fff;
 }
 .about{
@@ -75,16 +75,18 @@
 }
 .phone{
     margin-top: 20px;
-    margin-bottom: -60px;
+    margin-bottom: -20px;
+    height:350px;
 }
 .phone2{
-    margin-top:53px;
-    margin-bottom: -60px;
+    margin-top:30px;
+    margin-bottom: -30px;
+    height:350px;
 }
 .wind{
-    height:400px;
-    margin-top:58px;
-    margin-bottom: -60px;
+    height:270px;
+    margin-top:60px;
+    margin-bottom: 20px;
 }
 .maps{
     height:200px;
